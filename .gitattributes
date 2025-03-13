@@ -1,0 +1,4 @@
+* -text
+*.dsw text eol=crlf
+*.dsp text eol=crlf
+*.sln text eol=crlf

@@ -1,0 +1,9 @@
+# Visual Studio가 C++ 설정을 사용하여 .editorconfig 파일을 생성했습니다.
+root = true
+
+[*.{c++,c,cc,cpp,cppm,cxx,h,h++,hh,hpp,hxx,inl,ipp,ixx,tlh,tli,txt}]
+end_of_line = crlf
+insert_final_newline = true
+
+[*.{c++,c,cc,cpp,cppm,cxx,h,h++,hh,hpp,hxx,inl,ipp,ixx,tlh,tli,txt}]
+charset = euc-kr

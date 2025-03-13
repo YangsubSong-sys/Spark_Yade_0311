@@ -1,0 +1,7 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by BiOpTroCon.rc
+//
+#define HIDC_CHECK1                     0x80fd0403    // IDD_MODE_SUB18_4W_ADD1
+#define HIDC_CHECK2                     0x80ba0404    // IDD_MODE_SUB15_RECIPE
+#define HIDC_CHECK20                    0x80f00446    // IDD_MODE_SET13_SET1
+#define HIDC_CHECK5                     0x80ba0407    // IDD_MODE_SUB15_RECIPE

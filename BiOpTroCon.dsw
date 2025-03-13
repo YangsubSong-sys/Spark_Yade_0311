@@ -1,0 +1,37 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "BiOpTroCon"=".\BiOpTroCon.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {D7053240-CE69-11CD-A777-00DD01143C57}
+    {8BD21D40-EC42-11CE-9E0D-00AA006002F3}
+    {6262D3A0-531B-11CF-91F6-C2863C385E30}
+    {978C9E23-D4B0-11CE-BF2D-00AA003F40D0}
+    {03AF249E-119E-4569-838E-167E929EC6DA}
+    {D638FBDD-9AFD-4C6D-B709-3246179BB116}
+    {209656A8-857B-4E7B-8EB5-C54AF2B55608}
+    {2FEA5270-3610-4610-8C6F-8A5B15C48E45}
+}}}
+
+###############################################################################
+

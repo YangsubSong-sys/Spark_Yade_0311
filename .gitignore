@@ -1,0 +1,63 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Auto gen. files
+*.aps
+*.htm
+*.ncb
+*.opt
+*.plg
+*.sln
+*.help
+*.out
+*.clw
+*.org
+*.bak
+*.back
+tags
+OPENSETUPLIST
+*.un~
+*.swp
+*.swo
+
+# Directories
+Debug/
+Release/
+0DATA_REVISION/
+00SW-REVISION/
+0SW-EXENAME/
+BDL/
+Data/
+SETUP/
+.scannerwork/
+.vs/

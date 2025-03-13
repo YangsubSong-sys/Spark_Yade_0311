@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{09BF8812-EC06-4E25-B912-5E1E53866BAE}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\BiOpTroCon.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\BiOpTroCon.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\BiOpTroCon.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\BiOpTroCon.exe</OutputFile>
+      <AdditionalDependencies>Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /ignore:4084  /ignore:4089 </AdditionalOptions>
+      <StackReserveSize>2097152</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\BiOpTroCon.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\BiOpTroCon.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\BiOpTroCon.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\BiOpTroCon.exe</OutputFile>
+      <AdditionalDependencies>D64HDLL.lib;msimg32.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /ignore:4084  /ignore:4089 </AdditionalOptions>
+      <StackReserveSize>2097152</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BiOpTroCon.cpp" />
+    <ClCompile Include="BiOpTroConDoc.cpp" />
+    <ClCompile Include="BiOpTroConView.cpp" />
+    <ClCompile Include="ChildView1.cpp" />
+    <ClCompile Include="ChildView10.cpp" />
+    <ClCompile Include="ChildView2.cpp" />
+    <ClCompile Include="ChildView3.cpp" />
+    <ClCompile Include="ChildView4.cpp" />
+    <ClCompile Include="ChildView5.cpp" />
+    <ClCompile Include="ChildView6.cpp" />
+    <ClCompile Include="ChildView7.cpp" />
+    <ClCompile Include="ChildView8.cpp" />
+    <ClCompile Include="ChildView9.cpp" />
+    <ClCompile Include="comidaq.cpp" />
+    <ClCompile Include="comiled.cpp" />
+    <ClCompile Include="comitoggleswitch.cpp" />
+    <ClCompile Include="commandbutton.cpp" />
+    <ClCompile Include="Contec.cpp" />
+    <ClCompile Include="Dio.cpp" />
+    <ClCompile Include="DioD64H.cpp" />
+    <ClCompile Include="DioD96.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FileSysInfo.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="GRs.cpp" />
+    <ClCompile Include="IniFile.cpp" />
+    <ClCompile Include="labelcontrol.cpp" />
+    <ClCompile Include="LeftBarDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="mdccheckbox.cpp" />
+    <ClCompile Include="ModeMan11.cpp" />
+    <ClCompile Include="ModeMan12.cpp" />
+    <ClCompile Include="ModeMan14.cpp" />
+    <ClCompile Include="ModeMan15.cpp" />
+    <ClCompile Include="ModeMan16.cpp" />
+    <ClCompile Include="ModeMan17.cpp" />
+    <ClCompile Include="ModeManSpark.cpp" />
+    <ClCompile Include="ModeRun11.cpp" />
+    <ClCompile Include="ModeSer12.cpp" />
+    <ClCompile Include="ModeSer13.cpp" />
+    <ClCompile Include="ModeSer15.cpp" />
+    <ClCompile Include="ModeSet11.cpp" />
+    <ClCompile Include="ModeSet12.cpp" />
+    <ClCompile Include="ModeSet13.cpp" />
+    <ClCompile Include="ModeSet15.cpp" />
+    <ClCompile Include="ModeSet16.cpp" />
+    <ClCompile Include="ModeSet17.cpp" />
+    <ClCompile Include="ModeSet19.cpp" />
+    <ClCompile Include="ModeSet21.cpp" />
+    <ClCompile Include="ModeSub11.cpp" />
+    <ClCompile Include="ModeSub13.cpp" />
+    <ClCompile Include="ModeSub15.cpp" />
+    <ClCompile Include="ModeSub17.cpp" />
+    <ClCompile Include="ModeSub18.cpp" />
+    <ClCompile Include="ModeSub19.cpp" />
+    <ClCompile Include="ModeSub20.cpp" />
+    <ClCompile Include="ModeSub22.cpp" />
+    <ClCompile Include="ModeSub25.cpp" />
+    <ClCompile Include="ModeSub31.cpp" />
+    <ClCompile Include="ModeSub71.cpp" />
+    <ClCompile Include="ModeSub72.cpp" />
+    <ClCompile Include="ModeView16.cpp" />
+    <ClCompile Include="msflexgrid.cpp" />
+    <ClCompile Include="MyCtrlBar.cpp" />
+    <ClCompile Include="MyRichEditCtrl.cpp" />
+    <ClCompile Include="PassWord1.cpp" />
+    <ClCompile Include="picture.cpp" />
+    <ClCompile Include="rowcursor.cpp" />
+    <ClCompile Include="SaveAsNewBdl.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolbar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BiOpTroCon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A_Define1.h" />
+    <ClInclude Include="A_Define101.h" />
+    <ClInclude Include="A_Define102.h" />
+    <ClInclude Include="A_Define103.h" />
+    <ClInclude Include="A_Define2.h" />
+    <ClInclude Include="BiOpTroCon.h" />
+    <ClInclude Include="BiOpTroConDoc.h" />
+    <ClInclude Include="BiOpTroConView.h" />
+    <ClInclude Include="ChildView1.h" />
+    <ClInclude Include="ChildView10.h" />
+    <ClInclude Include="ChildView2.h" />
+    <ClInclude Include="ChildView3.h" />
+    <ClInclude Include="ChildView4.h" />
+    <ClInclude Include="ChildView5.h" />
+    <ClInclude Include="ChildView6.h" />
+    <ClInclude Include="ChildView7.h" />
+    <ClInclude Include="ChildView8.h" />
+    <ClInclude Include="ChildView9.h" />
+    <ClInclude Include="comidaq.h" />
+    <ClInclude Include="ComiDaqApi.h" />
+    <ClInclude Include="ComiDaqComm.h" />
+    <ClInclude Include="comiled.h" />
+    <ClInclude Include="comitoggleswitch.h" />
+    <ClInclude Include="commandbutton.h" />
+    <ClInclude Include="Contec.h" />
+    <ClInclude Include="Dio.h" />
+    <ClInclude Include="DioD64H.h" />
+    <ClInclude Include="DioD96.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FileSysInfo.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Gnet1.h" />
+    <ClInclude Include="GRs.h" />
+    <ClInclude Include="IniFile.h" />
+    <ClInclude Include="IO.h" />
+    <ClInclude Include="labelcontrol.h" />
+    <ClInclude Include="LeftBarDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="mdccheckbox.h" />
+    <ClInclude Include="ModeAuto11.h" />
+    <ClInclude Include="ModeMan11.h" />
+    <ClInclude Include="ModeMan12.h" />
+    <ClInclude Include="ModeMan14.h" />
+    <ClInclude Include="ModeMan15.h" />
+    <ClInclude Include="ModeMan16.h" />
+    <ClInclude Include="ModeMan17.h" />
+    <ClInclude Include="ModeManSpark.h" />
+    <ClInclude Include="ModeRun11.h" />
+    <ClInclude Include="ModeSer12.h" />
+    <ClInclude Include="ModeSer13.h" />
+    <ClInclude Include="ModeSer15.h" />
+    <ClInclude Include="ModeSet11.h" />
+    <ClInclude Include="ModeSet12.h" />
+    <ClInclude Include="ModeSet13.h" />
+    <ClInclude Include="ModeSet15.h" />
+    <ClInclude Include="ModeSet16.h" />
+    <ClInclude Include="ModeSet17.h" />
+    <ClInclude Include="ModeSet19.h" />
+    <ClInclude Include="ModeSet21.h" />
+    <ClInclude Include="ModeSub11.h" />
+    <ClInclude Include="ModeSub13.h" />
+    <ClInclude Include="ModeSub15.h" />
+    <ClInclude Include="ModeSub17.h" />
+    <ClInclude Include="ModeSub18.h" />
+    <ClInclude Include="ModeSub19.h" />
+    <ClInclude Include="ModeSub20.h" />
+    <ClInclude Include="ModeSub22.h" />
+    <ClInclude Include="ModeSub25.h" />
+    <ClInclude Include="ModeSub31.h" />
+    <ClInclude Include="ModeSub71.h" />
+    <ClInclude Include="ModeSub72.h" />
+    <ClInclude Include="ModeView16.h" />
+    <ClInclude Include="msflexgrid.h" />
+    <ClInclude Include="MyCtrlBar.h" />
+    <ClInclude Include="MyRichEditCtrl.h" />
+    <ClInclude Include="PassWord1.h" />
+    <ClInclude Include="PCI_D64H.h" />
+    <ClInclude Include="picture.h" />
+    <ClInclude Include="Print.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="rowcursor.h" />
+    <ClInclude Include="SaveAsNewBdl.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TrueColorToolbar.h" />
+    <ClInclude Include="UniDAQ.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="0 icon\bmp2comp.bmp" />
+    <Image Include="0 icon\BMP3.bmp" />
+    <Image Include="res\AUTO1.bmp" />
+    <Image Include="res\AUTO2.bmp" />
+    <Image Include="res\AUTO3.bmp" />
+    <Image Include="res\backgroundA1.bmp" />
+    <Image Include="res\backgroundA2.bmp" />
+    <Image Include="res\BiOpTro.bmp" />
+    <Image Include="res\BiOpTroCon.ico" />
+    <Image Include="res\BiOpTroConDoc.ico" />
+    <Image Include="res\ExtBarDemo.ico" />
+    <Image Include="res\ExtBarDemoDoc.ico" />
+    <Image Include="res\GRIM1-2.bmp" />
+    <Image Include="res\GRIM1.bmp" />
+    <Image Include="res\MSN_Back.bmp" />
+    <Image Include="res\MSN_Back_Alpha.bmp" />
+    <Image Include="res\MSN_Icon.bmp" />
+    <Image Include="res\MSN_Logo.bmp" />
+    <Image Include="res\NABI-2.bmp" />
+    <Image Include="res\NABI2-2.bmp" />
+    <Image Include="res\pic111.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar_Back.bmp" />
+    <Image Include="res\TrueColor_Toolbar.bmp" />
+    <Image Include="res\TrueColor_Toolbar_Mono.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\BiOpTroCon.rc2" />
+    <CustomBuild Include="res\cursor1.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MSIMG32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
