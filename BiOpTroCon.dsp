@@ -856,78 +856,32 @@ SOURCE=.\ReadMe.txt
 # End Source File
 # End Target
 # End Project
-# Section BiOpTroCon : {04598FC4-866C-11CF-AB7C-00AA00C08FCF}
-# 	2:5:Class:CCommandButton
-# 	2:10:HeaderFile:commandbutton.h
-# 	2:8:ImplFile:commandbutton.cpp
-# End Section
-# Section BiOpTroCon : {8BD21D43-EC42-11CE-9E0D-00AA006002F3}
-# 	2:5:Class:CMdcCheckBox
-# 	2:10:HeaderFile:mdccheckbox.h
-# 	2:8:ImplFile:mdccheckbox.cpp
-# End Section
-# Section BiOpTroCon : {978C9E23-D4B0-11CE-BF2D-00AA003F40D0}
-# 	2:21:DefaultSinkHeaderFile:labelcontrol.h
-# 	2:16:DefaultSinkClass:CLabelControl
-# End Section
-# Section BiOpTroCon : {0C3875DF-C1B2-491B-9999-70E9DFA405B0}
-# 	2:5:Class:CCOMILed
-# 	2:10:HeaderFile:comiled1.h
-# 	2:8:ImplFile:comiled1.cpp
-# End Section
-# Section BiOpTroCon : {5F4DF280-531B-11CF-91F6-C2863C385E30}
-# 	2:5:Class:CMSFlexGrid
-# 	2:10:HeaderFile:msflexgrid.h
-# 	2:8:ImplFile:msflexgrid.cpp
-# End Section
-# Section BiOpTroCon : {B88B9FB8-1ACB-4718-AE71-4651D56FE25A}
-# 	2:5:Class:CComiDaq
-# 	2:10:HeaderFile:comidaq1.h
-# 	2:8:ImplFile:comidaq1.cpp
-# End Section
-# Section BiOpTroCon : {6262D3A0-531B-11CF-91F6-C2863C385E30}
-# 	2:21:DefaultSinkHeaderFile:msflexgrid.h
-# 	2:16:DefaultSinkClass:CMSFlexGrid
-# End Section
-# Section BiOpTroCon : {BEF6E003-A874-101A-8BBA-00AA00300CAB}
-# 	2:5:Class:COleFont
-# 	2:10:HeaderFile:font.h
-# 	2:8:ImplFile:font.cpp
-# End Section
-# Section BiOpTroCon : {03AF249E-119E-4569-838E-167E929EC6DA}
-# 	2:21:DefaultSinkHeaderFile:bigfilecontrol.h
-# 	2:16:DefaultSinkClass:CBigFileControl
-# End Section
-# Section BiOpTroCon : {209656A8-857B-4E7B-8EB5-C54AF2B55608}
-# 	2:21:DefaultSinkHeaderFile:comiled1.h
-# 	2:16:DefaultSinkClass:CCOMILed
-# End Section
-# Section BiOpTroCon : {D638FBDD-9AFD-4C6D-B709-3246179BB116}
-# 	2:21:DefaultSinkHeaderFile:comidaq1.h
-# 	2:16:DefaultSinkClass:CComiDaq
+# Section BiOpTroCon : {7BF80981-BF32-101A-8BBB-00AA00300CAB}
+# 	2:5:Class:CPicture
+# 	2:10:HeaderFile:picture.h
+# 	2:8:ImplFile:picture.cpp
 # End Section
 # Section BiOpTroCon : {D7053240-CE69-11CD-A777-00DD01143C57}
 # 	2:21:DefaultSinkHeaderFile:commandbutton.h
 # 	2:16:DefaultSinkClass:CCommandButton
 # End Section
-# Section BiOpTroCon : {7BF80981-BF32-101A-8BBB-00AA00300CAB}
-# 	2:5:Class:CPicture
-# 	2:10:HeaderFile:picture.h
-# 	2:8:ImplFile:picture.cpp
+# Section BiOpTroCon : {CCDD63B4-96DB-475D-A26F-35B6B5A45AE2}
+# 	2:5:Class:CBigFileControl
+# 	2:10:HeaderFile:bigfilecontrol.h
+# 	2:8:ImplFile:bigfilecontrol.cpp
 # End Section
 # Section BiOpTroCon : {C37E2B7B-FA0C-4093-8103-61ABC4FADFB9}
 # 	2:5:Class:CComiToggleSwitch
 # 	2:10:HeaderFile:comitoggleswitch1.h
 # 	2:8:ImplFile:comitoggleswitch1.cpp
 # End Section
+# Section BiOpTroCon : {D638FBDD-9AFD-4C6D-B709-3246179BB116}
+# 	2:21:DefaultSinkHeaderFile:comidaq1.h
+# 	2:16:DefaultSinkClass:CComiDaq
+# End Section
 # Section BiOpTroCon : {2FEA5270-3610-4610-8C6F-8A5B15C48E45}
 # 	2:21:DefaultSinkHeaderFile:comitoggleswitch1.h
 # 	2:16:DefaultSinkClass:CComiToggleSwitch
-# End Section
-# Section BiOpTroCon : {CCDD63B4-96DB-475D-A26F-35B6B5A45AE2}
-# 	2:5:Class:CBigFileControl
-# 	2:10:HeaderFile:bigfilecontrol.h
-# 	2:8:ImplFile:bigfilecontrol.cpp
 # End Section
 # Section BiOpTroCon : {04598FC1-866C-11CF-AB7C-00AA00C08FCF}
 # 	2:5:Class:CLabelControl
@@ -942,4 +896,50 @@ SOURCE=.\ReadMe.txt
 # 	2:5:Class:CRowCursor
 # 	2:10:HeaderFile:rowcursor.h
 # 	2:8:ImplFile:rowcursor.cpp
+# End Section
+# Section BiOpTroCon : {04598FC4-866C-11CF-AB7C-00AA00C08FCF}
+# 	2:5:Class:CCommandButton
+# 	2:10:HeaderFile:commandbutton.h
+# 	2:8:ImplFile:commandbutton.cpp
+# End Section
+# Section BiOpTroCon : {978C9E23-D4B0-11CE-BF2D-00AA003F40D0}
+# 	2:21:DefaultSinkHeaderFile:labelcontrol.h
+# 	2:16:DefaultSinkClass:CLabelControl
+# End Section
+# Section BiOpTroCon : {8BD21D43-EC42-11CE-9E0D-00AA006002F3}
+# 	2:5:Class:CMdcCheckBox
+# 	2:10:HeaderFile:mdccheckbox.h
+# 	2:8:ImplFile:mdccheckbox.cpp
+# End Section
+# Section BiOpTroCon : {0C3875DF-C1B2-491B-9999-70E9DFA405B0}
+# 	2:5:Class:CCOMILed
+# 	2:10:HeaderFile:comiled1.h
+# 	2:8:ImplFile:comiled1.cpp
+# End Section
+# Section BiOpTroCon : {6262D3A0-531B-11CF-91F6-C2863C385E30}
+# 	2:21:DefaultSinkHeaderFile:msflexgrid.h
+# 	2:16:DefaultSinkClass:CMSFlexGrid
+# End Section
+# Section BiOpTroCon : {5F4DF280-531B-11CF-91F6-C2863C385E30}
+# 	2:5:Class:CMSFlexGrid
+# 	2:10:HeaderFile:msflexgrid.h
+# 	2:8:ImplFile:msflexgrid.cpp
+# End Section
+# Section BiOpTroCon : {BEF6E003-A874-101A-8BBA-00AA00300CAB}
+# 	2:5:Class:COleFont
+# 	2:10:HeaderFile:font.h
+# 	2:8:ImplFile:font.cpp
+# End Section
+# Section BiOpTroCon : {B88B9FB8-1ACB-4718-AE71-4651D56FE25A}
+# 	2:5:Class:CComiDaq
+# 	2:10:HeaderFile:comidaq1.h
+# 	2:8:ImplFile:comidaq1.cpp
+# End Section
+# Section BiOpTroCon : {03AF249E-119E-4569-838E-167E929EC6DA}
+# 	2:21:DefaultSinkHeaderFile:bigfilecontrol.h
+# 	2:16:DefaultSinkClass:CBigFileControl
+# End Section
+# Section BiOpTroCon : {209656A8-857B-4E7B-8EB5-C54AF2B55608}
+# 	2:21:DefaultSinkHeaderFile:comiled1.h
+# 	2:16:DefaultSinkClass:CCOMILed
 # End Section
