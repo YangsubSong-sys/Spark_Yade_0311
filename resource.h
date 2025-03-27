@@ -1236,7 +1236,8 @@
 #define IDC_EDIT_SPARK_REF03            1353
 #define IDC_EDIT_SPARK_REF02            1354
 #define IDC_EDIT_SPARK_REF01            1355
-#define IDC_EDIT_SPARK_REF2             1356
+#define IDC_EDIT_SPARK_REF1             1356
+#define IDC_EDIT_SPARK_REF_TMP          1356
 #define IDC_BUTTON_SPARK_OFFSET_APPLY   1360
 #define IDC_BUTTON_SPARK_READ_APPLY     1360
 #define IDC_BUTTON_SPARK_CAL            1361
@@ -1255,7 +1256,10 @@
 #define IDC_EDIT_SPARK_READ_V01         1375
 #define IDC_RADIO_SPARK_V01             1376
 #define IDC_RADIO_SPARK_V02             1377
+#define IDC_RADIO_SPARK_V1              1377
 #define IDC_RADIO_SPARK_V03             1378
+#define IDC_EDIT_SPARK_READ_V2          1378
+#define IDC_RADIO_SPARK_V_TMP           1378
 #define IDC_RADIO_SPARK_V04             1379
 #define IDC_RADIO_SPARK_V05             1380
 #define IDC_RADIO_SPARK_V06             1381
@@ -1270,8 +1274,6 @@
 #define IDC_LABEL_SPARK_OFFSET          1386
 #define IDC_LABEL_POSITION85            1386
 #define IDC_LABEL_SPARK_V2              1387
-#define IDC_RADIO_SPARK_V1              1388
-#define IDC_EDIT_SPARK_READ_V2          1389
 #define IDC_LABEL6                      1430
 #define IDC_LABEL105                    1430
 #define IDC_LABEL7                      1431

@@ -100,7 +100,7 @@ BOOL CModeManSpark::OnInitDialog()
 
 	//hdpark230403 begin
 	CString strSparkVoltLabel;
-	int nSparkLabel1[] = { 90, 50, 40, 30, 20, 10,  2, 0, 0, 0};
+	int nSparkLabel1[] = { 90, 50, 40, 30, 20, 10,  2, 1, 0, 0};
 	int nSparkLabel2[] = { 90, 60, 50, 40, 30, 20, 10, 8, 5, 2};
 
 	for (int i = 0; i < MAX_SPARK_CAL_NET; i++)
